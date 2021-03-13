@@ -1,0 +1,120 @@
+body{
+    /* font-family: "Lucida Console", Monaco, monospace; */
+    color: #424646;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.topbar {
+    color: #343a40;
+    background-color: #f8f9fa;
+    padding: 5px;
+}
+.topbar a{
+    color: #343a40;
+}
+.topbar a:hover{
+    color: #6c757d;
+}
+.topbar ul{
+    margin: 0;
+    padding: 0;
+}
+.topbar ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 2px 5px 2px 2px;
+    border-right: 1px solid #dee2e6;
+}
+.topbar ul li:last-child{
+    border:none;
+}
+.navbar{
+    background-color: #dc3545;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #dee2e6;
+}
+.dropdown-menu{
+    border-radius: 0;
+}
+.dropdown-menu a{
+    color: #343a40;
+    font-size: 14px;
+}
+.dropdown-item:focus, .dropdown-item:hover{
+    text-decoration: none;
+    background-color: #17a2b8;
+    color: #f8f9fa !important;
+}
+.dropdown-toggle::after{
+    display: none;
+}
+#cat-item{
+    font-size: 17px;
+}
+.user-profile-photo img{
+    width: 100%;
+    border: 1px solid #17a2b8;
+    border-radius: 50%;
+    padding: 2px;
+}
+.usr-profile-text{
+    margin: 5px;
+    text-align: center;
+}
+.usr-profile-text span{
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.list-group-item{
+    border: none;
+    border-radius: 0;
+}
+
+.list-group a:hover{
+    color: #fff;
+}
+.list-group a:hover .list-group-item{
+    background-color: #17a2b8;
+}
+.footer{
+    background-color: #222;
+    color: #dee2e6
+}
+.footer .section{
+    padding: 100px 0;
+}
+.footer ul{
+    margin: 0;
+    padding: 0;
+
+}
+.footer ul li{
+    list-style-type: none;
+}
+.footer ul li a{
+    color: #dee2e6;
+    line-height: 30px;
+    font-weight: 600;
+}
+.footer ul li a:hover{
+    margin-left: 6px;
+    color: #dc3545;
+    transition: all 0.4s ease;
+}
+.footer h4{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.footer .logo{
+    margin-bottom: 15px;
+}
